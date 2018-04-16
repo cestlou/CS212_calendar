@@ -1,4 +1,4 @@
-# Install script for directory: /Users/lunaalisonalvarez/Documents/Local C0D3/CS212/calendar
+# Install script for directory: /Users/lunaalisonalvarez/Documents/C0D3/CS212_calendar
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/lunaalisonalvarez/Documents/Local C0D3/CS212/calendar/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/lunaalisonalvarez/Documents/C0D3/CS212_calendar/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

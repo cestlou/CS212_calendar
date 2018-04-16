@@ -1,4 +1,4 @@
-/Applications/CLion.app/Contents/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/Users/lunaalisonalvarez/Documents/Local C0D3/CS212/calendar"
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/lunaalisonalvarez/Documents/C0D3/CS212_calendar
 -- The C compiler identification is AppleClang 9.0.0.9000039
 -- The CXX compiler identification is AppleClang 9.0.0.9000039
 -- Check for working C compiler: /Library/Developer/CommandLineTools/usr/bin/cc
@@ -15,4 +15,4 @@
 -- Detecting CXX compile features - done
 -- Configuring done
 -- Generating done
--- Build files have been written to: /Users/lunaalisonalvarez/Documents/Local C0D3/CS212/calendar/cmake-build-debug
+-- Build files have been written to: /Users/lunaalisonalvarez/Documents/C0D3/CS212_calendar/cmake-build-debug

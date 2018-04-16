@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/lunaalisonalvarez/Documents/C0D3/CS212_calendar/main.cpp
+date.h
+-
+iomanip
+-
+ostream
+-
+string
+-
+iostream
+-
+
