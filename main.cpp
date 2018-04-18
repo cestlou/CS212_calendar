@@ -1,7 +1,13 @@
 #include <iostream>
 #include <iomanip>
-
+#include <string>
 using namespace std;
+
+/*
+ * write a program that prompts the user to enter the year and first day of the year
+ * and displays the calendar table for the year on the console.
+ *
+ *  */
 
 int main() {
     int y, startDay, numberOfDaysInMonth;
@@ -68,26 +74,25 @@ int main() {
 
         cout << "-----------------------------" << endl;
         cout << " Sun Mon Tue Wed Thu Fri Sat" << endl;
-
-        for (int i = 0; i < startDay; i++) {
+        // padding before first date of month
+        int i;
+        for (i = 0; i < startDay; i++) {
             cout << "    ";
         }
-        for (int i = 1; i <= numberOfDaysInMonth; i++) {
-            if (i < 10) {
-                cout << "   " << i;
-            } else {
-                cout << "  " << i;
-            }
-            if ((i + startDay) % 7 == 0) {
-                cout << "" << endl;
 
+        for (int currentDay = 1; currentDay <= numberOfDaysInMonth; currentDay++) {
+            if ((currentDay + startDay) % 7 == 0) {
+                cout << endl;
+            }
+            if (currentDay < 10) {
+                cout << "   " << currentDay;
+            } else {
+                cout << "  " << currentDay;
             }
         }
+//      keep track of the next day of the following month
         startDay = (startDay + numberOfDaysInMonth) % 7;
+        cout << endl;
     }
 }
-/*
- * write a program that prompts the user to enter the year and first day of the year
- * and displays the calendar table for the year on the console.
- *
- *  */
+
